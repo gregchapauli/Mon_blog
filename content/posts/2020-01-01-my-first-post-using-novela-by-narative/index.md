@@ -2,7 +2,7 @@
 title: My first post using Novela by Narative
 author: Dennis Brotzky
 date: 2019-04-30
-hero: ./images/hero.jpg
+hero: ./upload/hero.jpg
 excerpt: With the growing community interest in Gatsby, we hope to create more resources that make it easier for anyone to grasp the power of this incredible tool.
 ---
 
@@ -74,7 +74,7 @@ Some text to show that the reference links can follow later.
 
 <div className="Image__Small">
   <img
-    src="./images/article-image-2.jpg"
+    src="./upload/article-image-2.jpg"
     title="Logo Title Text 1"
     alt="Alt text"
   />
