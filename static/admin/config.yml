@@ -1,5 +1,5 @@
 backend: # Set up your backend
-  name: gitlab
+  name: github
 
 local_backend: true # Optional if you want to use the local proxy mode
 
@@ -15,8 +15,8 @@ collections:
     delete: true
     path: "{{slug}}/index"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    media_folder: "images"
-    public_folder: "./images"
+    media_folder: "upload"
+    public_folder: "./upload"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Author", name: "author", widget: "relation", collection: "authors", valueField: "name", searchFields: ["name"] }
